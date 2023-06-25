@@ -1,12 +1,24 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
 </head>
 <body>
-    <h1>Sachin Ronson Dsilva</h1>
-    <p><mark>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit eveniet doloribus voluptate mollitia, suscipit odio perferendis ipsa provident consectetur aliquam.</mark></p>
+  <svg viewBox="0 0 1000 300">
+    <!-- Symbol-->
+    <symbol id="s-text">
+      <text text-anchor="middle" x="50%" y="50%" dy=".35em">Sachin Dsilva</text>
+    </symbol>
+    <!-- Duplicate symbols-->
+    <use class="text" xlink:href="#s-text"></use>
+    <use class="text" xlink:href="#s-text"></use>
+    <use class="text" xlink:href="#s-text"></use>
+    <use class="text" xlink:href="#s-text"></use>
+    <use class="text" xlink:href="#s-text"></use>
+  </svg>
 </body>
 </html>
